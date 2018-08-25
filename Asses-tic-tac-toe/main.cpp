@@ -89,53 +89,61 @@ std::cout << "Welcome to Tic Tac Toe" << std::endl;
 
 		if ((grid[0][0] == grid[0][1]) and (grid[0][0] == grid[0][2]) and (grid[0][0] == 'x'))
 		{
-			std::cout << "Congradulations player one You have won" << std::endl;
+			std::cout << "Congradulations player one You have won!!!!!!!!!!!" << std::endl;
 			onewin = true;
 		}
 		else if ((grid[1][0] == grid[1][1]) and (grid[1][0] == grid[1][2]) and (grid[1][0] == 'x'))
 		{
-			std::cout << "Congradulations player one You have won" << std::endl;
+			std::cout << "Congradulations player one You have won!!!!!!!!!!" << std::endl;
 
 			onewin = true;
 		}
 		else if ((grid[2][0] == grid[2][1]) and (grid[2][0] == grid[2][2]) and (grid[2][0] == 'x'))
 		{
-			std::cout << "Congradulations player one You have won" << std::endl;
+			std::cout << "Congradulations player one You have won!!!!!!!!!!!!!!" << std::endl;
 
 			onewin = true;
 		}
 		else if ((grid[0][0] == grid[1][0]) and (grid[0][0] == grid[2][0]) and (grid[0][0] == 'x'))
 		{
-			std::cout << "Congradulations player one You have won" << std::endl;
+			std::cout << "Congradulations player one You have won!!!!!!!!!!!!" << std::endl;
 
 			onewin = true;
 		}
 		else if ((grid[0][1] == grid[1][1]) and (grid[0][1] == grid[2][1]) and (grid[0][1] == 'x'))
 		{
-			std::cout << "Congradulations player one You have won" << std::endl;
+			std::cout << "Congradulations player one You have won!!!!!!!!!!!!!!!!" << std::endl;
 
 			onewin = true;
 		}
 		else if ((grid[0][2] == grid[1][2]) and (grid[0][2] == grid[2][2]) and (grid[0][2] == 'x'))
 		{
-			std::cout << "Congradulations player one You have won" << std::endl;
+			std::cout << "Congradulations player one You have won!!!!!!!!!!!!!!!" << std::endl;
 
 			onewin = true;
 		}
 		else if ((grid[0][0] == grid[1][1]) and (grid[0][0] == grid[2][2]) and (grid[0][0] == 'x'))
 		{
-			std::cout << "Congradulations player one You have won" << std::endl;
+			std::cout << "Congradulations player one You have won!!!!!!!!!!!!!!" << std::endl;
 
 			onewin = true;
 		}
 		else if ((grid[2][0] == grid[1][1]) and (grid[2][0] == grid[0][2]) and (grid[2][0] == 'x'))
 		{
-			std::cout << "Congradulations player one You have won" << std::endl;
+			std::cout << "Congradulations player one You have won!!!!!!!!!!!!!!!!!!" << std::endl;
 
 			onewin = true;
 		}
-		if (((one and two and three and four and five and six and seven and eight and nine) == true) and tie == false)
+		if (((one and two and three and four and five and six and seven and eight and nine) == true) and tie == false and onewin == false and twowin == false)
 		{
+			std::cout << "" << std::endl;
+			std::cout << " ----+---+----" << std::endl;
+			std::cout << " | " << grid[0][0] << " | " << grid[0][1] << " | " << grid[0][2] << " | " << std::endl;
+			std::cout << " ----+---+----" << std::endl;
+			std::cout << " | " << grid[1][0] << " | " << grid[1][1] << " | " << grid[1][2] << " | " << std::endl;
+			std::cout << " ----+---+----" << std::endl;
+			std::cout << " | " << grid[2][0] << " | " << grid[2][1] << " | " << grid[2][2] << " | " << std::endl;
+			std::cout << " ----+---+----" << std::endl;
 			std::cout << "WOW ITS A TIE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!" << std::endl;
 			tie = true;
 		}
@@ -209,54 +217,54 @@ std::cout << "Welcome to Tic Tac Toe" << std::endl;
 			//win checks for p2
 			if ((grid[0][0] == grid[0][1]) and (grid[0][0] == grid[0][2]) and (grid[0][0] == 'o'))
 			{
-				std::cout << "Congradulations player two You have won" << std::endl;
+				std::cout << "Congradulations player two You have won!!!!!!!!!!!!!!!!" << std::endl;
 				twowin = true;
 			}
 			else if ((grid[1][0] == grid[1][1]) and (grid[1][0] == grid[1][2]) and (grid[1][0] == 'o'))
 			{
-				std::cout << "Congradulations player two You have won" << std::endl;
+				std::cout << "Congradulations player two You have won!!!!!!!!!!!!!!!!!" << std::endl;
 
 				twowin = true;
 			}
 			else if ((grid[2][0] == grid[2][1]) and (grid[2][0] == grid[2][2]) and (grid[2][0] == 'o'))
 			{
-				std::cout << "Congradulations player two You have won" << std::endl;
+				std::cout << "Congradulations player two You have won!!!!!!!!!!!!!!!!!!!" << std::endl;
 
 				twowin = true;
 			}
 			else if ((grid[0][0] == grid[1][0]) and (grid[0][0] == grid[2][0]) and (grid[0][0] == 'o'))
 			{
-				std::cout << "Congradulations player two You have won" << std::endl;
+				std::cout << "Congradulations player two You have won!!!!!!!!!!!!!!" << std::endl;
 
 				twowin = true;
 			}
 			else if ((grid[0][1] == grid[1][1]) and (grid[0][1] == grid[2][1]) and (grid[0][1] == 'o'))
 			{
-				std::cout << "Congradulations player two You have won" << std::endl;
+				std::cout << "Congradulations player two You have won!!!!!!!!!!!!!!!" << std::endl;
 
 				twowin = true;
 			}
 			else if ((grid[0][2] == grid[1][2]) and (grid[0][2] == grid[2][2]) and (grid[0][2] == 'o'))
 			{
-				std::cout << "Congradulations player two You have won" << std::endl;
+				std::cout << "Congradulations player two You have won!!!!!!!!!!!!" << std::endl;
 
 				twowin = true;
 			}
 			else if ((grid[0][0] == grid[1][1]) and (grid[0][0] == grid[2][2]) and (grid[0][0] == 'o'))
 			{
-				std::cout << "Congradulations player two You have won" << std::endl;
+				std::cout << "Congradulations player two You have won!!!!!!!!!!!!!!" << std::endl;
 
 				twowin = true;
 			}
 			else if ((grid[2][0] == grid[1][1]) and (grid[2][0] == grid[0][2]) and (grid[2][0] == 'o'))
 			{
-				std::cout << "Congradulations player two You have won" << std::endl;
+				std::cout << "Congradulations player two You have won!!!!!!!!!!!!!!" << std::endl;
 
 				twowin = true;
 			}
 		}
 
-		if (((one and two and three and four and five and six and seven and eight and nine) == true) and tie == false) 
+		if (((one and two and three and four and five and six and seven and eight and nine) == true) and tie == false and onewin == false and twowin == false) 
 		{
 			std::cout << "WOW ITS A TIE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!" << std::endl;
 			tie = true;
@@ -264,5 +272,7 @@ std::cout << "Welcome to Tic Tac Toe" << std::endl;
 
 
 	} while ((onewin == false) and (twowin == false) and (tie == false));
-	return 0;
+
+
+return 0;
 }
