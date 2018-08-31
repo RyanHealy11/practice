@@ -86,6 +86,11 @@ std::cout << "Welcome to Tic Tac Toe" << std::endl;
 			}
 			else { std::cout << "Please choose a valid number" << std::endl; repeat = true; }
 		} while (repeat == true);
+		//player win check
+
+
+
+
 
 		if ((grid[0][0] == grid[0][1]) and (grid[0][0] == grid[0][2]) and (grid[0][0] == 'x'))
 		{
