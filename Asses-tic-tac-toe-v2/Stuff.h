@@ -5,11 +5,9 @@
 
 int printboard(char board[3][3]);
 
-int PlayerOne(char board[3][3]);
+int Player(char board[3][3], int player, char marker);
 
-int PlayerTwo(char board[3][3]);
+int wincheck(char board[3][3], int player);
 
-int wincheck(char board[3][3]);
-
-
+int tiecheck(int turn, bool win);
 
