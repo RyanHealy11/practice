@@ -17,7 +17,8 @@ int main()
 	std::cout << "When you are ready" << std::endl;
 	system("pause");
 
-	do {
+	do 
+	{
 		int max = 1000;
 		int min = 1;
 		int guess = INT_MIN;
@@ -33,15 +34,18 @@ int main()
 			else if (PlayerInput == 'h')
 			{	++turncounter;
 				min = guess;
-				guess = (((max - min) / 2) + min);}
+				guess = (((max - min) / 2) + min);
+			}
 			else if (PlayerInput == 'l')
 			{	++turncounter;
 				max = guess;
-				guess = (((max - min) / 2) + min);}
+				guess = (((max - min) / 2) + min);
+			}
 			else if (PlayerInput == '=')
 			{	++turncounter;
 				endgame = true;
-				std::cout << "It Took the Computer " << turncounter << " turns to find your number" << std::endl;}
+				std::cout << "It Took the Computer " << turncounter << " turns to find your number" << std::endl;
+			}
 			else { std::cout << "Please enter a valid selection" << std::endl; }
 		} while (endgame == false);
 		std::cout << "would you like to play again? y/n" << std::endl;

@@ -30,7 +30,7 @@ int main()
 
 			}
 		} while (win == false);
-		char again = 'g';
+		char again = 'z';
 		std::cout << "Would you like to play again?" << std::endl;
 		std::cout << "y for Yes or n for No" << std::endl;
 		std::cin >> again;
