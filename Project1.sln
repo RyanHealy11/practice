@@ -35,9 +35,13 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Asses-NumberGuess", "Asses-
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10- text files", "Project8\Project8.vcxproj", "{7BF4CF1B-7148-4B06-8C95-A64CC73735B6}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11- binary files", "11- binary files\11- binary files.vcxproj", "{2C9E47F5-02F8-48B7-A6C4-858268403D83}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11- binary Hello", "11- binary files\11- binary files.vcxproj", "{2C9E47F5-02F8-48B7-A6C4-858268403D83}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Asses-BattleArena", "Asses-BattleArena\Asses-BattleArena.vcxproj", "{89A35C74-9BBB-4590-B089-19315AB169C6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11- Binary Save Data", "asses- binary\asses- binary.vcxproj", "{9D00158E-403D-4BA2-8BA0-3333EB26B275}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11-binary beast", "Project9\Project9.vcxproj", "{64D626E2-0D48-4146-8DF9-90EF3FECC234}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -191,6 +195,22 @@ Global
 		{89A35C74-9BBB-4590-B089-19315AB169C6}.Release|x64.Build.0 = Release|x64
 		{89A35C74-9BBB-4590-B089-19315AB169C6}.Release|x86.ActiveCfg = Release|Win32
 		{89A35C74-9BBB-4590-B089-19315AB169C6}.Release|x86.Build.0 = Release|Win32
+		{9D00158E-403D-4BA2-8BA0-3333EB26B275}.Debug|x64.ActiveCfg = Debug|x64
+		{9D00158E-403D-4BA2-8BA0-3333EB26B275}.Debug|x64.Build.0 = Debug|x64
+		{9D00158E-403D-4BA2-8BA0-3333EB26B275}.Debug|x86.ActiveCfg = Debug|Win32
+		{9D00158E-403D-4BA2-8BA0-3333EB26B275}.Debug|x86.Build.0 = Debug|Win32
+		{9D00158E-403D-4BA2-8BA0-3333EB26B275}.Release|x64.ActiveCfg = Release|x64
+		{9D00158E-403D-4BA2-8BA0-3333EB26B275}.Release|x64.Build.0 = Release|x64
+		{9D00158E-403D-4BA2-8BA0-3333EB26B275}.Release|x86.ActiveCfg = Release|Win32
+		{9D00158E-403D-4BA2-8BA0-3333EB26B275}.Release|x86.Build.0 = Release|Win32
+		{64D626E2-0D48-4146-8DF9-90EF3FECC234}.Debug|x64.ActiveCfg = Debug|x64
+		{64D626E2-0D48-4146-8DF9-90EF3FECC234}.Debug|x64.Build.0 = Debug|x64
+		{64D626E2-0D48-4146-8DF9-90EF3FECC234}.Debug|x86.ActiveCfg = Debug|Win32
+		{64D626E2-0D48-4146-8DF9-90EF3FECC234}.Debug|x86.Build.0 = Debug|Win32
+		{64D626E2-0D48-4146-8DF9-90EF3FECC234}.Release|x64.ActiveCfg = Release|x64
+		{64D626E2-0D48-4146-8DF9-90EF3FECC234}.Release|x64.Build.0 = Release|x64
+		{64D626E2-0D48-4146-8DF9-90EF3FECC234}.Release|x86.ActiveCfg = Release|Win32
+		{64D626E2-0D48-4146-8DF9-90EF3FECC234}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
