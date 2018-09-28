@@ -5,7 +5,7 @@
 
 int main()
 {
-	saveData write{ "weedgod", 0, 500, true, 5000 };
+	saveData write{ "harry", 0, 500, true, 5000 };
 	std::fstream file;
 	file.open("savedata.bin", std::ios::out | std::ios::binary);
 	if (!file.is_open())
@@ -44,6 +44,6 @@ int main()
 	file.flush();
 	file.close();
 
-
+	system("pause");
 	return 0;
 }

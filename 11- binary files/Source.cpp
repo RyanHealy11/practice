@@ -27,9 +27,10 @@ int main()
 	std::string buffer;
 	std::getline(file, buffer);
 
-	std::cout << "Buffer test: " << buffer << std::endl;
+	std::cout << buffer << std::endl;
 	
 	file.flush();
 	file.close();
+	system("pause");
 	return 0;
 }

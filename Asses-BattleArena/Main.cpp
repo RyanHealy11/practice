@@ -5,12 +5,12 @@
 int swap( hero team[10]);
 int main() 
 {
-	srand(time(0));
+	srand(time(NULL));
 
 	hero IronMan{ "Iron Man", 100, 500 };
 	hero SpiderMan{ "Spider Man", 100 , 500};
 	hero Thor{ "Thor", 100, 500 };
-	hero Hulk{ "Hulk", 1000, 1000};
+	hero Hulk{ "Hulk", 100, 500};
 	hero CaptainAmerica{"Captain America",100,500};
 	hero AntMan{"Antman",100,500};
 	hero DocStrange{"Doctor Strange",100,500};
@@ -20,7 +20,7 @@ int main()
 	
 	hero marvel[10]{IronMan,SpiderMan,Thor,Hulk,CaptainAmerica,AntMan,DocStrange,BlackPanther,Vision,CapMarvel };
 
-	hero SuperMan{"SuperMan",1000,1000};
+	hero SuperMan{"SuperMan",100,500};
 	hero Flash{"The Flash",100,500};
 	hero BatMan{"BatMan",100, 500};
 	hero WonderWoman{"Wonder Woman",100, 500};
@@ -45,7 +45,7 @@ int main()
 
 	do 
 	{
-		if (!marvel[currentMarvel].health == 0)
+		if (marvel[currentMarvel].health != 0)
 		{
 			target = (rand() % DCAlive);
 			damage = (rand() % (marvel[currentMarvel].attack));
@@ -70,7 +70,7 @@ int main()
 		}
 		++currentMarvel;
 
-		if (!DC[currentDC].health == 0) 
+		if (DC[currentDC].health != 0) 
 		{
 			target = (rand() % MarvelAlive);
 			damage = (rand() % (DC[currentDC].attack));
@@ -102,7 +102,9 @@ int main()
 		{
 			currentDC = 0;
 		}
-	
+		
+		//std::cin.get();
+
 	} while (MarvelAlive and DCAlive != 0);
 
 
@@ -125,7 +127,7 @@ int main()
 	std::cout << "" << std::endl;
 	std::cout << "" << std::endl;
 	std::cout << "" << std::endl;
-	
+	system("pause");
 	return 0;
 }
 
@@ -141,7 +143,7 @@ int correct = 0;
 	{
 		hero temp;
 		correct = 0;
-		for (int i = 0; i < 10; ++i)
+		for (int i = 0; i < 9; ++i)
 		{
 			if (team[i].health < team[i + 1].health)
 			{
@@ -155,7 +157,7 @@ int correct = 0;
 				++correct;
 			}
 		}
-	} while (correct != 10);
+	} while (correct != 9);
 	
 	return 0;
 }
