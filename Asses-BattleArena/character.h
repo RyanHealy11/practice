@@ -2,8 +2,9 @@
 #include <iostream>
 
 
-struct hero 
+class hero 
 {
+public:
 	char name[30];
 	int attack;
 	int health;
